@@ -2,21 +2,21 @@ import Direct from "../Direct/Direct"
 import Like from "../Like/Like"
 import Logo from "../Logo/Logo"
 
-
 function Navbar() {
-    return(
-        <div className="flex justify-between p-7 w-full h-16 items-center">
-            <div className="flex ">
-            <Direct />
-            <Like />
+    return (
+        <div className="flex justify-between items-center p-4 w-full h-16">
+            <div className="flex items-center space-x-4">
+                <Direct />
+                <Like />
             </div>
-             
-              <div className="">
-            <Logo />
-              </div>
+            <div className="hidden md:block"> 
+                              <Logo />
+            </div>
+            <div className="block md:hidden"> 
+                <Logo /> 
+            </div>
         </div>
     )
-    
 }
 
-export default Navbar
+export default Navbar;
