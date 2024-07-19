@@ -1,0 +1,17 @@
+{
+    "posts": [
+      { "id": 1, "username": "ali-mohamadi" , "profileurl":"","post":"" },
+      { "id": 2, "username": "ali-mohamadi" , "profileurl":"","post":"" },
+      { "id": 3, "username": "ali-mohamadi" , "profileurl":"","post":"" },
+      { "id": 4, "username": "ali-mohamadi" , "profileurl":"","post":"" },
+      { "id": 5, "username": "ali-mohamadi" , "profileurl":"","post":"" },
+      { "id": 6, "username": "ali-mohamadi" , "profileurl":"","post":"" },
+      { "id": 7, "username": "ali-mohamadi" , "profileurl":"","post":"" },
+      { "id": 8, "username": "ali-mohamadi" , "profileurl":"","post":"" },
+      
+    ],
+    "comments": [
+      { "id": 1, "body": "Great post!", "postId": 1 },
+      { "id": 2, "body": "Thanks for sharing!", "postId": 2 }
+    ]
+  }
