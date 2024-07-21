@@ -1,5 +1,6 @@
+import AllUsers from "../Components/Allusers/AllUsers"
 import Navbar from "../Components/Navbar/Navbar"
-import UsersCover from "../Components/Users/UsersCover"
+import UsersCall from "../Components/UsersCall/UsersCall"
 
 
 function Home() {
@@ -7,7 +8,9 @@ function Home() {
        
         <>
         <Navbar />
-        <UsersCover />
+        <UsersCall />
+        <AllUsers />
+        
         </>
       
     )
