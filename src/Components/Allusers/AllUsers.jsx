@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import HighLights from "../HighLights/HighLights";
 
 function AllUsers() {
     const [users, setUsers] = useState([]);
@@ -19,6 +20,7 @@ function AllUsers() {
             .then((result) => {
                 setUsers2(result.data);
             });
+
     }, []);
 
     return (
@@ -37,6 +39,10 @@ function AllUsers() {
                        <button className="bg-blue-500 w-1/2 rounded">Direct</button>
                        <button className="bg-blue-500 w-1/2 rounded">Follow</button>
                       </div>
+
+                      <HighLights />
+
+                      
 
                    <div className="w-1/4 h-48 flex space-between mt-48">
                     <img className="mt-4 ml-10" src={users.post} />
