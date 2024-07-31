@@ -6,6 +6,8 @@ import Followers from "../../Followers/Followers";
 import YourPosts from "../../YourPosts/YourPosts";
 import Following from "../../Following/Following";
 import Button from "./../Button/Button";
+import Direct from "../Direct/Direct";
+import Like from "../Like/Like";
 
 function AllUsers() {
   const [users, setUsers] = useState([]);
@@ -35,11 +37,18 @@ function AllUsers() {
 
   return (
     <>
-      <div className="flex flex-col">
+
+    <div className="flex m-7 ml-16">
+      <Direct />
+      <Like />
+      </div>
+
+      <div className="flex flex-col ">
+    
         <div className="flex justify-center text-center pt-20 ">
           <Following />
           <Followers count={count} />
-          <YourPosts followCount={count} /> 
+          <YourPosts /> 
         </div>
 
         <div className="absolute right-0 w-16 h-16 shadow m-20 rounded-full overflow-hidden">
