@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { PiCameraBold } from "react-icons/pi";
+import { Link } from "react-router-dom";
 
 
 function DirectMassige() {
@@ -20,13 +21,13 @@ function DirectMassige() {
     return (
         <>
         
-            <div>
+            <div className="mt-7 mr-7 pl-12 text-xl">
     
         <div className="p-7 text-center"><input type="text" className="w-4/5 h-7 bg-gray-50 text-center rounded" placeholder="Search..." /></div>
                 {DirectMassige ? (
                     DirectMassige.map((item) => (
                         <div key={item.id} className="flex mt-6 justify-between">
-                            <img className="rounded-full w-16 h-16 object-cover mt-5 ml-7" src={item.url} alt={item.username} />
+                            <Link className="" to="/DirectMe"><img className="rounded-full w-16 h-16 object-cover mt-5 ml-7" src={item.url} alt={item.username} /></Link>
                             <p className="mt-7 mr-7 pl-12 text-xl">{item.username}</p>
                             <div className="flex">
                                 <PiCameraBold className="size-9 mt-5 mr-7" />
