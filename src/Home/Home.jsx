@@ -6,12 +6,14 @@ import UsersCall from "../Components/UsersCall/UsersCall"
 function Home() {
     return(
        
-        <>
+        
+            <div>
         <Navbar />
         <UsersCall />
         <RandomPosts />
-        
-        </>
+        </div>
+         
+    
       
     )
 }

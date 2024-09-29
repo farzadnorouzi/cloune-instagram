@@ -4,6 +4,8 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 import { TiHeartOutline, TiHeart } from "react-icons/ti"; // اضافه کردن TiHeart
 import { FaRegComment } from "react-icons/fa";
 import { VscFileSymlinkDirectory } from "react-icons/vsc";
+import { MdOutlineSaveAlt } from "react-icons/md";
+import Footer from "../footer/Footer";
 
 function RandomPosts() {
     const [result, setResult] = useState([]); 
@@ -65,8 +67,10 @@ function RandomPosts() {
                             )}
                         </div>
                     </div>
+                   <div><MdOutlineSaveAlt className="ml-12 text-3xl flex"/></div>
                 </div>
             ))}
+            <Footer />
         </div>
     );
 }
