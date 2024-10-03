@@ -68,6 +68,8 @@ function RandomPosts() {
                         </div>
                     </div>
                    <div><MdOutlineSaveAlt className="ml-12 text-3xl flex"/></div>
+
+                   <div className="text-xl text-end mr-7">Liked by ali and 1238+</div>
                 </div>
             ))}
             <Footer />

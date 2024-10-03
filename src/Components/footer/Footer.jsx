@@ -6,7 +6,7 @@ import { CgProfile } from "react-icons/cg";
 
 function Footer() {
     return(
-        <div className="flex text-6xl mt-12 justify-center bg-white">
+        <div className="flex text-4xl mt-12 justify-center bg-gray-500 sticky static bottom-0 overflow-hidden  rounded">
             <CgProfile className="mr-16"/>
             <MdOutlinePersonalVideo className="mr-16"/>
              <CiSquarePlus className="mr-16" />
