@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function Footer() {
     return(
         <div className="flex text-4xl mt-12 justify-center bg-gray-500 sticky static bottom-0 overflow-hidden  rounded">
-           <Link to="/"><CgProfile className="mr-16"/></Link>
+           <Link to="Profile"><CgProfile className="mr-16"/></Link>
             <MdOutlinePersonalVideo className="mr-16"/>
              <CiSquarePlus className="mr-16" />
             <Link to="/Explor">< IoSearch className="mr-16" /></Link>

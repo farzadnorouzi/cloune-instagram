@@ -23,7 +23,7 @@ function Explor() {
                 
                  </div>
 
-                 <div>
+                 <div className="flex flex-wrap justify-around">
                     {Explor.map((item)=>{
                         return(
                           

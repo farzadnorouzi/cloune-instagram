@@ -4,6 +4,7 @@ import AllUsers from "./Components/Allusers/AllUsers"
 import DirectMassige from "./Components/DirectMassige/DirectMassige"
 import DirectMe from "./DirectMe/DirectMe"
 import Explor from "./Component2/Explor/Explor"
+import Profile from "./Component2/Profile/Profile"
 
 
 
@@ -20,6 +21,7 @@ function App() {
     <Route path="/AllUsers/:id/DirectMassige" element={<DirectMassige />} />
     <Route path="/DirectMe" element={<DirectMe />} />
     <Route path="/Explor" element={<Explor />} />
+    <Route path="/Profile" element={<Profile />} />
  
 
     
