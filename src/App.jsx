@@ -22,6 +22,7 @@ function App() {
     <Route path="/DirectMe" element={<DirectMe />} />
     <Route path="/Explor" element={<Explor />} />
     <Route path="/Profile" element={<Profile />} />
+    
  
 
     
