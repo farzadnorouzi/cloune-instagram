@@ -5,6 +5,7 @@ import DirectMassige from "./Components/DirectMassige/DirectMassige"
 import DirectMe from "./DirectMe/DirectMe"
 import Explor from "./Component2/Explor/Explor"
 import Profile from "./Component2/Profile/Profile"
+import AddPost from "./Component2/AddPost/AddPost"
 
 
 
@@ -22,6 +23,7 @@ function App() {
     <Route path="/DirectMe" element={<DirectMe />} />
     <Route path="/Explor" element={<Explor />} />
     <Route path="/Profile" element={<Profile />} />
+    <Route path="/AddPost" element={<AddPost />} />
     
  
 

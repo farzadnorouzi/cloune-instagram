@@ -5,10 +5,13 @@ import { RiListSettingsFill } from "react-icons/ri";
 function Profile() {
     return(
         <>
-    < RiListSettingsFill className="m-12 text-3xl" />
+    <div className="flex items-center ">
+    <RiListSettingsFill className="m-7 text-3xl" />
+    <h1 className="ml-80 text-2xl">your username-2006</h1>
+</div>
         <div className="m-52 flex items-center">
             <div className="flex flex-col items-end">
-                <FaRegCircleUser className="text-6xl" />git
+                <FaRegCircleUser className="text-6xl" />
             </div>
             <div className="flex text-center ml-6">
                 <h1 className="pl-12">1 <br /> post</h1>
