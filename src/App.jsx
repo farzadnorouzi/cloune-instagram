@@ -6,6 +6,7 @@ import DirectMe from "./DirectMe/DirectMe"
 import Explor from "./Component2/Explor/Explor"
 import Profile from "./Component2/Profile/Profile"
 import AddPost from "./Component2/AddPost/AddPost"
+import Reels from "./Component2/Reels/Reels"
 
 
 
@@ -24,6 +25,7 @@ function App() {
     <Route path="/Explor" element={<Explor />} />
     <Route path="/Profile" element={<Profile />} />
     <Route path="/AddPost" element={<AddPost />} />
+    <Route path="/Reels" element={<Reels />} />
     
  
 
