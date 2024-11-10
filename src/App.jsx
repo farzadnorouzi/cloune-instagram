@@ -7,6 +7,7 @@ import Explor from "./Component2/Explor/Explor"
 import Profile from "./Component2/Profile/Profile"
 import AddPost from "./Component2/AddPost/AddPost"
 import Reels from "./Component2/Reels/Reels"
+import Login from "./Login/Login"
 
 
 
@@ -14,8 +15,8 @@ import Reels from "./Component2/Reels/Reels"
 
 function App() {
   return(
-
- 
+<>
+ <Login />
 
     <Routes>
     <Route path="/" element={<Home />} />
@@ -33,6 +34,8 @@ function App() {
     
 
     </Routes>
+
+    </>
 
     
   )
